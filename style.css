@@ -21,6 +21,38 @@ a:hover, a:focus {
     text-decoration: none;
 }
 
+img {
+    max-width: 100%;
+}
+
+.section-padding {
+    padding: 120px 0;
+}
+
+.section-title {
+    margin-bottom: 80px;
+}
+
+.section-title h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+}
+
+.section-title h2:after {
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    height: 6px;
+    width: 90px;
+    content: '';
+    background: #000;
+    opacity: 0.15;
+    margin-left: -45px;
+}
+
 .button {
     display: inline-block;
     padding: 20px 70px;
@@ -118,4 +150,34 @@ a:hover, a:focus {
 
 .banner-content h1 {
     margin-bottom: 60px;
+}
+
+
+
+/* Services Style */
+.services-wrap {
+    background-color: #17c2a4;
+    color: #fff;
+}
+
+.content p {
+    font-weight: 300;
+}
+
+.content h3 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.content img, .content i {
+    margin-bottom: 60px;
+}
+
+.content i {
+    font-size: 130px;
+}
+
+.content img {
+    max-height: 130px;
 }
