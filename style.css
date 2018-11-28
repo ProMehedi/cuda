@@ -233,3 +233,20 @@ img {
     color: #30bae7;
     margin-bottom: 25px;
 }
+
+
+.skill-progress {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.skill-progress span {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    transform: translate(0, -50%);
+    font-size: 50px;
+    font-weight: 300;
+}
