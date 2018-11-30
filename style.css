@@ -250,3 +250,66 @@ img {
     font-size: 50px;
     font-weight: 300;
 }
+
+
+
+
+
+
+
+
+
+
+
+.portfolio-items .mix {
+    width: 45%;
+    float: left;
+    margin: 0 25px;
+    margin-bottom: 60px;
+}
+
+.portfolio-items {
+    margin-left: -25px;
+    margin-right: -25px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.portfolio-filter {
+    margin-bottom: 60px;
+    margin-top: -40px;
+}
+
+.portfolio-filter button {
+    font-size: 18px;
+    color: #393939;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 4px 20px;
+    border: none;
+    background-color: #ebc985;
+    border-radius: 4px;
+    margin: 0 4px;
+}
+
+.portfolio-filter button.mixitup-control-active {
+    background-color: #fff;
+}
+
+button:focus {
+    outline: none;
+}
+
+.portfolio-wrap {
+    background-color: #ffdd99;
+    padding-bottom: 60px;
+}
+
+.mix p {
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.mix img {
+    margin-bottom: 30px;
+}
