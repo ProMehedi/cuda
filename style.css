@@ -64,6 +64,8 @@ img {
     background-color: #eb7d4b;
     border-radius: 4px;
     position: relative;
+    border: none;
+    cursor: pointer;
     text-transform: uppercase;
     font-weight: 600;
     font-size: 18px;
@@ -361,4 +363,51 @@ button:focus {
     position: relative;
     padding-left: 145px;
     margin-bottom: 120px;
+}
+
+
+
+
+.contact-wrap {
+    background-color: #3c5499;
+    color: #fff;
+}
+
+.contact-form input, .contact-form textarea {
+    background-color: #273a71;
+    border: none;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 15px 25px;
+    border-radius: 4px;
+    outline: none;
+    color: #fff;
+}
+
+.footer-wrap {
+    background-color: #344b8e;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.footer-menu li {
+    display: inline-block;
+}
+
+.footer-menu li a {
+    display: block;
+    color: inherit;
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 15px 30px;
+    transition: 0.3s;
+}
+
+.footer-menu {
+    text-align: center;
+}
+
+.footer-menu li:hover a {
+    color: #30bae7;
 }
